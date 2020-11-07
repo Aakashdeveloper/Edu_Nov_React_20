@@ -1,0 +1,137 @@
+3 application react
+1 react hooks
+2 react redux
+1 react login logout
+1 react graphql
+1 React Saga
+Github
+Testing
+Deployment> Heroku/Docker/Nginx/
+CI/CD with AWS (git to aws)
+Basic React Native
+
+https://nodejs.org/en/
+https://code.visualstudio.com/
+https://git-scm.com/downloads
+https://github.com/Aakashdeveloper
+https://github.com/Aakashdeveloper/Edu_Nov_React_20
+https://www.codecademy.com/learn/introduction-to-javascript
+
+//////////////
+JavaScript
+Html
+css
+Bootstrap
+
+//////////////////////////
+React
+////////////////
+React is frontend framework that help to build single page application
+using component based structure
+
+//////////
+npm> node package manager
+node_modules/dependency/packages
+
+JSON
+> JavaScript Object Notation
+[
+    {
+        name:"John",
+        class:"UI"
+    },
+    {
+        name:"John",
+        class:"UI",
+        rollno:1
+    }
+]
+
+//////
+Package.json
+> Entry Point to the application
+> Meta Data (description,version,lin,name,author)
+> Scripts  (test,run ,build)
+> Packages (dependency,versions)
+
+node -v
+
+//////////////////////////
+Step to generate package.json
+////////////////////////////////
+**NodeJs must be there in my system
+> Open terminal/cmd and navigate to the folder
+> npm init 
+> Answer all questions
+> type "yes"
+
+//////////////////////////
+Step to install packages
+////////////////////////////////
+**NodeJs must be there in my system
+> Open terminal/cmd and navigate to the folder
+> npm i packagename / npm install packagename /npm i packagename --save
+
+
+local
+> local to folder
+> use in one particular folder
+> max dependency will be local
+
+global
+> local to the system
+> use for any application
+> mainly use for generation application
+> need admin permission
+> will not add in package.json 
+
+
+//////////////////////////
+Step to install Global packages
+////////////////////////////////
+**NodeJs must be there in my system
+
+#window
+> open cmd as admin
+> npm i -g packagename
+
+#mac/linux
+> Open terminal
+> sudo npm i -g packagename
+
+//////////////////////////
+Step to Generate React App
+////////////////////////////////
+#window
+>>>Only One Time in new system<<<<<
+> open cmd as admin
+> npm i -g create-react-app 
+
+>>Next Every time you want new app<<<<<
+> open cmd
+> go inside folder
+> create-react-app appname
+
+
+#window
+>>>Only One Time in new system<<<<<
+> open terminal
+> sudo npm i -g create-react-app 
+
+>>Next Every time you want new app<<<<<
+> open terminal
+> go inside folder
+> create-react-app appname
+
+//////////////////////////
+Step to Run the app
+////////////////////////////////
+> go inside app using cmd/terminal
+> npm start
+> http://localhost:3000
+
+
+/////JavaScript////
+Map
+Filter
+Indexof
