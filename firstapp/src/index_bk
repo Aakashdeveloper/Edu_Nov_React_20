@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
+
+//functional component
+const App = () =>{
+    return(
+        <React.Fragment>
+            <Header/>
+            <h1>Hi To React</h1>
+            <h2>Developer Funnel</h2>
+            <Footer/>
+        </React.Fragment>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))

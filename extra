@@ -135,3 +135,36 @@ Step to Run the app
 Map
 Filter
 Indexof
+
+////////////Component///////
+Functional
+> dumb component
+> display purpose
+> light in weight
+
+ClassComponent
+> logical Component
+> can be use for display as well as Logic/data/apicall
+> heavy as compare to Functional
+
+Hooks Component
+
+/////////
+State & Props 
+
+State > 
+# act like a local variable
+# any data interaction will happen through state Only
+# State value can be update
+# State are defined in class Component
+
+Props >
+# Help to transfer data from one component to other component
+# We can pass data from parent to child and child to parent
+# we cannot directly update props value 
+
+
+///////
+react routing
+passing params in url
+fetch vs axios
