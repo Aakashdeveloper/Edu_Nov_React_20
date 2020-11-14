@@ -1,0 +1,65 @@
+.quickSearchContainer{
+    margin-left:115px;
+    margin-top:50px
+}
+
+.quickSearchHeading{
+    text-align: left;
+    color: #192f60;
+    font-size:30px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.quickSearchSubHeading{
+    text-align: left;
+    color: gray;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:18px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.tileContainer{
+    box-shadow: 0 3px 6px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:400px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+.tileComponent1{
+    width:50%;
+    float: left;
+}
+
+.tileComponent1>img{
+    height:150px;
+    width:160px
+}
+.tileComponent2{
+    width:50%;
+    float: left;
+    margin-top: 20px;
+}
+
+
+.componentHeading{
+    text-align: left;
+    color:#192f60;
+    font-size:18px;
+    font-weight: bold;
+
+}
+
+.componentSubHeading{
+    text-align: left;
+    color:gray;
+    font-size:14px
+}

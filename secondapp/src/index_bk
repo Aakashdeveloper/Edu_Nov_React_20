@@ -1,0 +1,37 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {BrowserRouter,Route,Link} from 'react-router-dom';
+import Home from './component/Home';
+import Hotels from './component/Hotels';
+import Bookings from './component/Bookings';
+
+ReactDOM.render(
+    <BrowserRouter>
+        <div>
+            <header>
+                <nav className="navbar navbar-inverse">
+                    <div className="container-fluid">
+                        <div className="navbar-header">
+                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>                        
+                        </button>
+                        <a className="navbar-brand" href="#">Developer Funnel</a>
+                        </div>
+                        <div className="collapse navbar-collapse" id="myNavbar">
+                            <ul className="nav navbar-nav">
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/bookings">Bookings</Link></li>
+                                <li><Link to="/hotels">Hotels</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <Route exact path="/" component={Home}></Route>
+            <Route path="/bookings" component={Bookings}></Route>
+            <Route path="/hotels" component={Hotels}></Route>
+        </div>
+    </BrowserRouter>, document.getElementById('root')
+)

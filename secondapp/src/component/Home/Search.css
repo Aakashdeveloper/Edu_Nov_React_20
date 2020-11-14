@@ -1,0 +1,115 @@
+.imageContainer{
+    background: url('https://i.ibb.co/Cv6Y9NL/bg.jpg');
+    border-style: solid ;
+    border-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+body{
+    margin: auto;
+}
+#logo{
+    text-align: center;
+    color:rgb(11, 168, 196);
+    font-weight: bold;
+    font-size: 90px;
+    background-color:white;
+    height:150px;
+    width:150px;
+    margin:auto;
+    border-radius:80%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.heading{
+    text-align:center;
+    color:rgb(250, 17, 17);
+    font-size:36px;
+
+}
+
+.locationSelector{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.locationDropDown{
+    width:250px;
+    height:60px;
+    border-radius: 0%;
+    font-size: 20px;
+    border: none;
+}
+
+.reataurantsinput{
+    border: none;
+    width:370px;
+    height:60px;
+    border-radius:0%;
+    font-size: 20px;
+    margin-left:5px
+}
+
+.quickSearchContainer{
+    margin-left:115px;
+    margin-top:50px
+}
+
+.quickSearchHeding{
+    text-align: left;
+    color: #192f60;
+    font-size:30px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.quickSearchSubHeding{
+    text-align: left;
+    color: gray;
+    line-height: .01;
+    letter-spacing: normal;
+    font-size:18px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.tileContainer{
+    box-shadow: 0 3px 6px black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width:400px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+.tileComponent1{
+    width:50%;
+    float: left;
+}
+.tileComponent2{
+    width:50%;
+    float: left;
+    margin-top: 20px;
+}
+
+
+.componentHeading{
+    text-align: left;
+    color:#192f60;
+    font-size:18px;
+    font-weight: bold;
+
+}
+
+.componentSubHeading{
+    text-align: left;
+    color:gray;
+    font-size:14px
+}

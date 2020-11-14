@@ -168,3 +168,23 @@ Props >
 react routing
 passing params in url
 fetch vs axios
+
+
+from parent to child  > simple props
+from child to parent  > props with callback function
+
+
+/////Second App///////
+npm i react-router-dom axios react-tabs
+
+(get) hotels> https://developerfunnel.herokuapp.com/hotels
+(get) hotelwrtcity > https://developerfunnel.herokuapp.com/hotels?city=6
+(get) hoteldetails > https://developerfunnel.herokuapp.com/hotelsdetails/1
+(get) onbasisoftrip> https://developerfunnel.herokuapp.com/hotellist/1
+https://developerfunnel.herokuapp.com/hotellist/1?roomtype=1
+https://developerfunnel.herokuapp.com/hotellist/1?hcost=1000&lcost=500
+(get) cityname> https://developerfunnel.herokuapp.com/location
+(get)  rooms => https://developerfunnel.herokuapp.com/rooms
+(get)  triptype> https://developerfunnel.herokuapp.com/booking
+(get)  bookingdetails > https://developerfunnel.herokuapp.com/allBooking
+(post) placebooking >  https://developerfunnel.herokuapp.com/placeBook
