@@ -188,3 +188,12 @@ https://developerfunnel.herokuapp.com/hotellist/1?hcost=1000&lcost=500
 (get)  triptype> https://developerfunnel.herokuapp.com/booking
 (get)  bookingdetails > https://developerfunnel.herokuapp.com/allBooking
 (post) placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+https://developerhotel.herokuapp.com/
+
+var age = 10
+var b = "My age is "+age
+"My age is 10"
+
+var b = `My age is ${age}`
+"My age is 10"

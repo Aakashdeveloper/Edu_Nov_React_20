@@ -5,6 +5,7 @@ import Hotels from './Hotels';
 import Bookings from './Bookings';
 import Header from './Header';
 import Footer from './Footer';
+import ListingApi from './listing/ListingApi';
 
 const Routing = () => {
     return(
@@ -13,6 +14,7 @@ const Routing = () => {
                 <Header/>
                 <Route exact path="/" component={Home}></Route>
                 <Route path="/bookings" component={Bookings}></Route>
+                <Route path="/list/:id" component={ListingApi}></Route>
                 <Route path="/hotels" component={Hotels}></Route>
                 <Footer/>
             </div>

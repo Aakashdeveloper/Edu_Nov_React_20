@@ -29,14 +29,27 @@ class Search extends Component {
         }
     }
 
+    //To display hotel wrt to city
+    renderHotel = (data) => {
+        if(data){
+            return data.map((item) => {
+                return(
+                    <option>
+                        {item.name} | {item.city_name}
+                    </option>
+                )
+            })
+        }
+    }
+
     // TO display Hotel wrt to city
     handleCity =(event)=>{
         const cityId = event.target.value;
         const url = hurl+cityId
         fetch(hurl+cityId,{method:'GET'})
         .then((res) => res.json())
-        .then((data) => {console.log(data)})
-        //.then((data) => {this.setState({hotel:data})})
+        //.then((data) => {console.log(data)})
+        .then((data) => {this.setState({hotels:data})})
     }
 
     //2
@@ -56,6 +69,7 @@ class Search extends Component {
                     </select>
                     <select className="reataurantsinput">
                         <option>------SELECT HOTEL-----</option>
+                        {this.renderHotel(this.state.hotels)}
                     </select>
                 </div>
             </div>
