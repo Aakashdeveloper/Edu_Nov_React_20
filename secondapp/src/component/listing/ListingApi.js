@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import ListingDisplay from './ListingDisplay';
 import RoomFilter from '../filters/roomFilter';
+import CostFilter from '../filters/costFilter';
 
 const listUrl = "https://developerfunnel.herokuapp.com/hotellist"
 
@@ -25,7 +26,8 @@ class ListingApi extends Component{
             <div>
                 <div className="row">
                     <div className="col-md-2">
-                        <RoomFilter roomperType={(data)=>{this.setDataPerFilter(data)}}/>
+                        <RoomFilter roomperType={(data)=>{this.setDataPerFilter(data)}} tripid={10}/>
+                        <CostFilter roomPerCost={(data)=>{this.setDataPerFilter(data)}}/>
                     </div>
                     <div className="col-md-10">
                         <ListingDisplay listRecord={this.state.listData}/>

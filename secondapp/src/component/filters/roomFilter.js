@@ -18,6 +18,7 @@ class RoomFilter extends Component{
         axios.get(roomUrl)
         .then((response) => {this.props.roomperType(response.data)})
     }
+
     render(){
         return(
             <React.Fragment>

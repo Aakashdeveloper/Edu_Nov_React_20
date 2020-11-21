@@ -31,6 +31,7 @@ class Search extends Component {
 
     //To display hotel wrt to city
     renderHotel = (data) => {
+        console.log("hotel>>>",data)
         if(data){
             return data.map((item) => {
                 return(
@@ -63,12 +64,13 @@ class Search extends Component {
                     Plan Your trip with Us
                 </div>
                 <div className="locationSelector">
+                    
                     <select className="locationDropDown" onChange={this.handleCity}>
-                        <option>------SELECT CITY-----</option>
+                        <option>----SELECT CITY-----</option>
                         {this.renderCity(this.state.location)}
                     </select>
                     <select className="reataurantsinput">
-                        <option>------SELECT HOTEL-----</option>
+                        <option>----SELECT HOTEL-----</option>
                         {this.renderHotel(this.state.hotels)}
                     </select>
                 </div>

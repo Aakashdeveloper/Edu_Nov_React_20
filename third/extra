@@ -1,0 +1,19 @@
+function add(a,b){
+    var sum = a+b
+    var sub = a-b
+    return sum,sub
+}
+
+add(2,3)
+-1
+
+
+function add(a,b){
+    var sum = a+b
+    var sub = a-b
+    var out = [sum,sub]
+    return out
+}
+
+add(2,3)
+5

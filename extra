@@ -1,14 +1,21 @@
 3 application react
 1 react hooks
-2 react redux
 1 react login logout
+1 react redux
+
+///////////////
+1 redux
 1 react graphql
-1 React Saga
-Github
 Testing
-Deployment> Heroku/Docker/Nginx/
-CI/CD with AWS (git to aws)
+///////////
 Basic React Native
+Deployment> Heroku/Docker/Nginx/
+Github
+CI/CD with AWS (git to aws)
+1 React Saga
+
+
+
 
 https://nodejs.org/en/
 https://code.visualstudio.com/
@@ -197,3 +204,35 @@ var b = "My age is "+age
 
 var b = `My age is ${age}`
 "My age is 10"
+
+
+>>>>>> withRouter
+
+Math.floor(Math.random()*10000)
+
+
+Math.floor(Math.random()*(max-min))+min
+
+Math.floor(Math.random()*(10-1))+1
+
+
+params> this props.match.params
+queryparams > this.location.search
+redirect => this.history.push
+
+////////
+redux
+///////
+
+redux help to optimize the code
+state managmenet
+passing data to non nested component
+
+
+>>>>>Hooks<<<<<<
+usestate
+useeffect
+
+
+>>>>>Redux1<<<<<
+>>>>LoginLogout with React and JWT<<<<<<<
