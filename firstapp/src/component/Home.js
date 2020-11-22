@@ -10,7 +10,8 @@ class Home extends Component{
 
         this.state={
             news:JSON,
-            filtered:JSON
+            filtered:JSON,
+            city:''
         }
     }
 

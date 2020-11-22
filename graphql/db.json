@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "name": "Gulab",
+      "city": "Delhi",
+      "locality": "Pitampura, New Delhi",
+      "thumb": "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+      "aggregate_rating": "4.2",
+      "rating_text": "Very Good",
+      "min_price": 230
+    },
+    {
+      "id": 1,
+      "name": "McDonald's",
+      "locality": "Mira Road",
+      "city": "Mumbai",
+      "thumb": "https://b.zmtcdn.com/data/pictures/chains/9/35079/2be67efb4302119d103affa1c5f85ee0.jpg",
+      "aggregate_rating": "4.1",
+      "rating_text": "Very Good",
+      "min_price": 980
+    },
+    {
+      "id": 2,
+      "name": "Satguru's Punjabi Rasoi",
+      "locality": "Destination Centre Magarpatta",
+      "city": "Pune",
+      "aggregate_rating": "4.2",
+      "rating_text": "Very Good",
+      "min_price": 670,
+      "thumb": "https://b.zmtcdn.com/data/pictures/3/12073/a8e288f382c2950ffe4819aa47a82b7b.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Captain Sam's",
+      "locality": "Sector 70",
+      "city": "Chandigarh",
+      "thumb": "https://b.zmtcdn.com/data/reviews_photos/c7a/634a2c0def8a8d044992aea9e7680c7a_1556257724.jpg",
+      "aggregate_rating": "3.9",
+      "min_price": 670,
+      "rating_text": "Good"
+    },
+    {
+      "id": 5,
+      "name": "ABC",
+      "aggregate_rating": "4.3"
+    },
+    {
+      "id": 6,
+      "name": "DEF"
+    },
+    {
+      "id": 7,
+      "name": "DEF",
+      "locality": "Delhi"
+    }
+  ]
+}

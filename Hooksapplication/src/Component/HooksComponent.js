@@ -7,7 +7,8 @@ function HookComponent(){
     const [title] = useState('Hooks App');
     const [count,setCount] = useState(0)
     const [count1,setCount1] = useState(0);
-    const [city,setMyCity] = useEffect()
+    const [city,setMyCity] = useState();
+    const [udetails] = useState({'name':'qq','pass':'wger'})
 
     useEffect(()=>{
         fetch(url,{method:'GET'})
