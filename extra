@@ -2,14 +2,15 @@
 1 react hooks
 1 react login logout
 1 react redux
-
-///////////////
 1 redux
+///////////////
 1 react graphql
-Testing
+Basic React Native
 
 ///////////
-Basic React Native
+debugging
+lifecycle method
+Testing
 Deployment> Heroku/Docker/Nginx/
 Github
 CI/CD with AWS (git to aws)
@@ -306,3 +307,17 @@ https://www.youtube.com/c/DeveloperFunnel/videos
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+
+npm i redux react-redux redux-logger redux-promise react-slick react-router-dom prop-types enzyme enzyme-adapter-react-16 react-test-renderer react-addons-test-utils
+
+
+
+///For dummy Api///
+> npm i -g json-server
+> json-server --watch db.json --port 8900
+
+>>>>>>>>><<<<<<<<<<<<<<
+npm i -g create-react-native-app
+create-react-native-app appname
+npm run web

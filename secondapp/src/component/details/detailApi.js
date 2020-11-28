@@ -22,6 +22,7 @@ class Details extends Component{
     async componentDidMount(){
         let hotelid = this.props.match.params.id;
         let response = await axios.get(`${url}/${hotelid}`)
+        console.log(response.data)
         sessionStorage.setItem('hotelName',response.data[0].name)
         this.setState({details:response.data[0]})
     }
