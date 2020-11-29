@@ -3,12 +3,11 @@
 1 react login logout
 1 react redux
 1 redux
-///////////////
-1 react graphql
-Basic React Native
-
-///////////
 debugging
+1 react graphql
+///////////////
+
+Basic React Native
 lifecycle method
 Testing
 Deployment> Heroku/Docker/Nginx/
@@ -321,3 +320,6 @@ npm i redux react-redux redux-logger redux-promise react-slick react-router-dom 
 npm i -g create-react-native-app
 create-react-native-app appname
 npm run web
+
+
+npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo 

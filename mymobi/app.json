@@ -1,0 +1,12 @@
+{
+  "name": "mymobi",
+  "displayName": "mymobi",
+  "expo": {
+    "name": "mymobi",
+    "slug": "mymobi",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

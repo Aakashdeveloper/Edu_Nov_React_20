@@ -28,14 +28,14 @@ class LoginComponent extends Component {
             method:'POST',
             headers:{
                 'Accept':'application/json',
-                'Content-Type':'application/json',
-                'Auth':'token8348848'
+                'Content-Type':'application/json'
             },
             body:JSON.stringify(this.state)
         })
        .then((res) => res.json())
        .then((data) => {
-           console.log(data)
+           sessionStorage.setItem('ltk',data.token)
+           this.props.history.push('/profile')
        })
     }
 
