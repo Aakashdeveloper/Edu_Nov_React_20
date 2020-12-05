@@ -6,7 +6,8 @@ import Header from './Header';
 import Footer from './Footer';
 import ListingApi from './listing/ListingApi';
 import DetailApi from './details/detailApi';
-import PlaceBooking from './booking/placeBooking'
+import PlaceBooking from './booking/placeBooking';
+import Lifecycle from './Lifecycle';
 
 const Routing = () => {
     return(
@@ -18,6 +19,7 @@ const Routing = () => {
                 <Route path="/list/:id" component={ListingApi}></Route>
                 <Route path="/details/:id" component={DetailApi}></Route>
                 <Route path="/booking/:id" component={PlaceBooking}></Route>
+                <Route path="/lifecycle" component={Lifecycle}></Route>
                 <Footer/>
             </div>
         </BrowserRouter>

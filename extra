@@ -5,13 +5,15 @@
 1 redux
 debugging
 1 react graphql
-///////////////
 
 Basic React Native
 lifecycle method
-Testing
-Deployment> Heroku/Docker/Nginx/
+///////////////
+Deployment> Heroku
 Github
+
+Docker/Nginx/
+Testing
 CI/CD with AWS (git to aws)
 1 React Saga
 
@@ -323,3 +325,13 @@ npm run web
 
 
 npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo 
+
+C > Post
+R > Get
+U > Put
+D > Delete
+
+https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
+
+
+https://reactnative.dev/
