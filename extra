@@ -5,20 +5,14 @@
 1 redux
 debugging
 1 react graphql
-
 Basic React Native
 lifecycle method
-///////////////
 Deployment> Heroku
-Github
-
-Docker/Nginx/
-Testing
-CI/CD with AWS (git to aws)
 1 React Saga
-
-
-
+CI/CD with AWS (git to aws)
+Testing
+Docker/Nginx/
+Github
 
 https://nodejs.org/en/
 https://code.visualstudio.com/
@@ -26,6 +20,7 @@ https://git-scm.com/downloads
 https://github.com/Aakashdeveloper
 https://github.com/Aakashdeveloper/Edu_Nov_React_20
 https://www.codecademy.com/learn/introduction-to-javascript
+https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
 
 //////////////
 JavaScript
@@ -310,7 +305,10 @@ https://www.youtube.com/c/DeveloperFunnel/videos
 (response) => {userinfo}
 
 
-npm i redux react-redux redux-logger redux-promise react-slick react-router-dom prop-types enzyme enzyme-adapter-react-16 react-test-renderer react-addons-test-utils
+//development
+npm i redux react-redux redux-logger redux-promise react-slick react-router-dom prop-types 
+// testing
+npm i enzyme enzyme-adapter-react-16 react-test-renderer react-addons-test-utils
 
 
 
@@ -334,4 +332,41 @@ D > Delete
 https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
 
 
-https://reactnative.dev/
+https://reactnative.dev
+
+
+SAAS
+PAAS > EBS
+IAAS
+
+
+a= 10
+b =20
+
+var out = a+b 
+
+
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)
+
+//////////////////////////////////////
+>>>>>>First time new folder new repo<<<<<<<<
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/decedu.git
+git push -u origin master
+
+>>>>>All next time from same folder<<<<<<<<
+git add .
+git commit -m "first commit"
+git push
+
+git clone https://github.com/Aakashdeveloper/decedu
+ git checkout -b feature/home

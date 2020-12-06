@@ -6,7 +6,7 @@ class Header extends Component{
         super()
 
         this.state={
-            title:'Edureka React',
+            title:'Edureka React with AWS',
             keyword:'User Input Here'
         }
     }

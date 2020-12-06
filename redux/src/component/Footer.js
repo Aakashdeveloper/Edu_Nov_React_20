@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div>
                 <hr/>
-                &copy; Developer Funnel
+                &copy; Developer Funnels
             </div>
         </footer>
     )
